@@ -36,4 +36,14 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 ### Instructions
 
-run `maddpg_train.py` to solve the environment and train the agents to play tennis!  
+- This repository contains
+    - [models.py](models.py)
+    - [utils.py](utils.py)
+    - [agents.py](agents.py)
+    - [maddpg_train.py](maddpg_train.py)
+
+- metrics and trained agents can be found under [data](./data/)
+    
+run `maddpg_train.py` to solve the environment and train the agents to play tennis! 
+
+
