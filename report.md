@@ -77,7 +77,7 @@ class EnvWrapper:
 #### 4. Results
 
 - The provided graphics below show the results for the rewards and losses
-- using the provided hyperparameters we achieve a very stable training process and solve the env after 256 episodes (although this technically means 256 * 20 agents)
+- using the provided hyperparameters we solve the env after 1982 episodes
 
 
 ![Rewards](./data/rewards.png)
