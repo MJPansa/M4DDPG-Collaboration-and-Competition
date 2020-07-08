@@ -1,10 +1,6 @@
 import numpy as np
 import torch as T
 from agent import MARL
-import wandb
-
-
-wandb.init(project="udacity_tennis")
 
 PATH = 'Tennis_Linux/Tennis.x86_64'
 
@@ -100,7 +96,6 @@ for episode in range(args['episodes']):
     print(f'noise factor: {max(args["noise_factor"], args["noise_minimum"]):.4f}')
     print(f'buffer size: {len(maddpg.buffer)}\n')
 
-    wandb.log(maddpg.stats)
     maddpg.reset_stats()
     # # save models every 100 episodes
     if episode % 500 == 0:
