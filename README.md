@@ -1,4 +1,4 @@
-# M4DDPG-Collaboration-and-Competition
+# MADDPG-Collaboration-and-Competition
 My solution for the Collaboration and Competition project of Udacity's Deep Reinforcement Learning Nanodegree 
 
 # Project 3: Collaboration and Competition
