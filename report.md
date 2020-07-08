@@ -78,7 +78,7 @@ class EnvWrapper:
 
 - The provided graphics below show the results for the rewards and losses
 - using the provided hyperparameters we solve the env after 1982 episodes
-
+- The training logs can be found [here](data/output.log)
 
 ![Rewards](./data/rewards.png)
 ![Actor Loss](./data/actor_loss.png)
