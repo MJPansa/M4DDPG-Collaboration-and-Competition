@@ -40,7 +40,6 @@ The Multi Agent Deep Deterministic Policy Gradient (MADDPG) algorithm is used fo
 
 #### 4. Implementaion
 - We make use of a simple wrapper to allow for a functionality coherent with the open ai gym package. Helps with readibility and is more familiar than ml-agants.
-- [maddpg_train.py](maddpg_train.py) implements main training regime
 
 ```python
 class EnvWrapper:
@@ -73,7 +72,7 @@ class EnvWrapper:
 - [utils.py](utils.py) also implements the experience buffer which is responsible for storing and sampling (s,a,r,d,s').
 - [models.py](models.py) implements the simple feed forward models.
 - [agent.py](agent.py) implements the MADDPG class that handles the interaction with the env and the learning functionality
-- For an implementation of the training loop, please view the provided [jupyter notebook](ddpg_train.ipynb). 
+- For an implementation of the training loop, please view [maddpg_train.py](maddpg_train.py). 
 
 #### 4. Results
 
