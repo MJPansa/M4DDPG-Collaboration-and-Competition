@@ -44,6 +44,6 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 - metrics, logs and trained agents can be found under [data](./data/)
     
-run `maddpg_train.py` to solve the environment and train the agents to play tennis! 
+run `maddpg_train.py` to solve the environment and train the agents to play tennis! Feel free to modify the hyperparameters within the file.
 
 
